@@ -1,8 +1,12 @@
 import json
+import os
 from langchain_core.documents import Document
 
+# Get the directory where loader.py is located
+current_dir = os.path.dirname(os.path.abspath(__file__))
+KNOWLEDGE_BASE_PATH = os.path.join(current_dir, "..", "data", "knowledge_base.json")
 
-def load_knowledge_base(path="data/knowledge_base.json"):
+def load_knowledge_base(path=KNOWLEDGE_BASE_PATH):
     with open(path, "r") as f:
         data = json.load(f)
 

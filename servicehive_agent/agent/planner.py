@@ -8,11 +8,11 @@ Agent brain — clean separation of concerns:
   DB operations     → utils/db.py
 """
 
-from agent.llm import get_llm
-from agent.intent import detect_intent
-from agent.extractor import extract_user_info
-from utils.db import save_user, get_all_users, get_users_by_plan
-from tools.lead_capture import mock_lead_capture
+from .llm import get_llm
+from .intent import detect_intent
+from .extractor import extract_user_info
+from ..utils.db import save_user, get_all_users, get_users_by_plan
+from ..tools.lead_capture import mock_lead_capture
 
 llm = get_llm()
 

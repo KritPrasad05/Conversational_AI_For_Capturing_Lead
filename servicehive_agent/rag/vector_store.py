@@ -1,7 +1,7 @@
 import os
 from langchain_community.vectorstores import FAISS
-from rag.loader import load_knowledge_base
-from rag.embedder import get_embedding_model
+from .loader import load_knowledge_base
+from .embedder import get_embedding_model
 
 INDEX_PATH = "data/vector_store"
 
