@@ -1,0 +1,13 @@
+# Local virtual environment files
+Include/
+Lib/
+Scripts/
+pyvenv.cfg
+
+# Environment and caches
+.env
+__pycache__/
+*.pyc
+
+# Generated vector store artifacts
+servicehive_agent/data/vector_store/
