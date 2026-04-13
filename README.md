@@ -17,18 +17,21 @@ servicehive_agent/
 |-- data/
 |   `-- knowledge_base.json
 |-- rag/
-|   |-- loader.py
 |   |-- embedder.py
-|   `-- retriever.py
+|   |-- loader.py
+|   |-- retriever.py
+|   `-- vector_store.py
 |-- agent/
-|   |-- state.py
+|   |-- extractor.py
+|   |-- graph.py
 |   |-- intent.py
+|   |-- llm.py
 |   |-- planner.py
-|   `-- graph.py
+|   `-- state.py
 |-- tools/
 |   `-- lead_capture.py
 `-- utils/
-    `-- helpers.py
+    `-- db.py
 ```
 
 ## Setup
