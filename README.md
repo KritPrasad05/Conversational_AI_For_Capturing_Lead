@@ -139,7 +139,7 @@ ServiceHive/                          ← Root folder
 ### Step 1 — Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/KritPrasad05/Conversational_AI_For_Capturing_Lead.git)
 cd ServiceHive
 ```
 
